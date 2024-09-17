@@ -1134,7 +1134,7 @@ figcaption {
   align-items: flex-end;
   width: 100%;
   margin-top: -1rem;
-  padding-top: 1rem;
+  padding-top: 5rem;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -1293,8 +1293,8 @@ figcaption {
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   width: 100%;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: block;
 }
 
@@ -1305,6 +1305,30 @@ figcaption {
 .scroll-link.clickable-on.opacity-hide {
   opacity: 0;
 }
+
+
+
+
+
+
+.scroll-link.clickable-on {
+   position: fixed; /*Fix the icons in the viewport */ */
+ left: -970px; /*Align the icons to the left side */
+ bottom: 20px; Position them above the bottom of the page */
+ display: flex; */
+ flex-direction: row; Align the icons horizontally */
+ gap: 0px; Space between the icons */
+ }
+
+.scroll-link.clickable-on img {
+  width: 70px; /* Adjust icon size as needed */
+  height: 50px; /* Ensure icons are square */
+}
+
+
+
+
+
 
 .meter {
   flex: 1;
